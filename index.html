@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <meta name="description" content="CocktailPedia">
+    <title>CocktailPedia</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🍸 CocktailPedia 🍹</h1>
+        <form id="searchForm">
+            <label for="cocktailName">Search a cocktail per name:</label>
+            <input type="text" id="cocktailName" placeholder="Read a name of cocktail">
+            <button type="submit">Search</button>
+        </form>
+        <button id="randomCocktail">Random Cocktail</button>
+        <div id="resultCount"></div>
+        <div id="results"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
