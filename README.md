@@ -23,6 +23,9 @@ Cette application web permet aux utilisateurs de rechercher des informations sur
 - JavaScript
 - jQuery
 
+## Image 
+https://imgur.com/a/vFVkM0C
+
 ## Auteur
 
 VIDAL Vincent
